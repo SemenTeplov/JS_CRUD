@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>ToDoList</title>
+    </head>
+
+    <body style="font-size: 24px; color: #000000">
+        <section class="container">
+            <div class="list" style="background-color: #ffffff;"></div>
+
+            <div class="collection">
+                <button class="addItem" style="background-color: #ffffff;" onclick="openSetting()">&#9881</button>
+                <button class="addItem" style="background-color: #ffffff;" onclick="clearItems()">&#128465</button>
+                <button class="addItem" style="background-color: #ffffff;" onclick="openBox()">+</button>
+            </div>
+
+            <div class="inputItem" style="background-color: #ffffff;">
+                <input class="inText" type="text">
+                <input class="inDate" type="date">
+                <button class="okItems" style="background-color: #ffffff;" onclick="createItem()">Ok</button>   
+            </div>
+            
+            <div class="setting" style="background-color: #ffffff;">
+                <p>Font size</p>
+                <input class="inNumber" type="number">
+                <p>Background color</p>
+                <input class="inColor" type="color">
+                <button class="okItems" style="background-color: #ffffff;" onclick="onSetting()">Ok</button> 
+            </div>
+        </section>
+
+        <script defer src="js/script.js"></script>
+    </body>
+</html>

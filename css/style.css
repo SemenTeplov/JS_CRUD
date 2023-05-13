@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: lightgrey;
+    height: 100vh;
+    padding: 10px;
+}
+.list {
+    height: 100%;
+    margin-bottom: 10px;
+    border: solid 2px #ff8800;
+    border-radius: 1%;
+    padding: 50px;
+}
+p {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.buttonDelete {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    color: #ff8800;
+    font-size: 24px;
+    border: solid 2px #ff8800;
+    border-radius: 50%;
+}
+.buttonDelete:hover {
+    color: #faaf58;
+    border-color: #faaf58;
+}
+.collection {
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    right: 5%;
+}
+.addItem {   
+    font-size: 64px;
+    color: #ff8800;
+    width: 80px;
+    height: 80px;
+    border: solid 2px #ff8800;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.addItem:hover {
+    color: #faaf58;
+    border-color: #faaf58;
+}
+
+.inputItem {
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    border: solid 2px #ff8800;
+    border-radius: 2%;
+    top: 40%;
+    right: 40%;
+}
+.inputItem input {
+    position: inherit;
+    border: solid 1px #ff8800;
+    border-radius: 5%;
+}
+.inText {
+    width: 300px;
+    height: 30px;
+    left: 25px;
+    top: 50px;
+}
+.inDate {
+    width: 200px;
+    height: 30px;
+    left: 25px;
+    top: 130px;
+}
+.okItems {
+    position: inherit;
+    font-size: 24px;
+    color: #ff8800;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ff8800;
+    border-radius: 5%;
+    top: 120px;
+    right: 15px;
+}
+.okItems:hover {
+    color: #faaf58;
+    border-color: #faaf58;
+}
+
+.setting {
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 350px;
+    padding: 10px;
+    border: solid 2px #ff8800;
+    border-radius: 2%;
+    top: 40%;
+    right: 40%;
+}
+.setting p {
+    padding: 0;
+    margin: 10px 0 5px 0;
+}
+.setting input {
+    border: solid 1px #ff8800;
+    border-radius: 5%;
+}
